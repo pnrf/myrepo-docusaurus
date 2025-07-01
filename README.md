@@ -33,6 +33,18 @@ git branch -M main // инициализировать основную ветк
 git push -u origin main // задеплоить файлы в удаленный репозиторий
 ```
 
+### Шаг 4.
+
+На GitHub зайти в созданный репозиторий и убедиться, что коммит выполнен успешно.
+
+**Обратить внимание:**
+```
+[WARNING] When deploying to GitHub Pages, it is better to use an explicit "trailingSlash" site config.
+Otherwise, GitHub Pages will add an extra trailing slash to your site urls only on direct-access (not when navigation) with a server redirect.
+This behavior can have SEO impacts and create relative link issues.
+```
+
+
 ---
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
